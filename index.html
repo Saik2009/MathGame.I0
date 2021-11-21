@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MathGame.i0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="game.css">
+
+    <script src="game_login.js"></script>
+</head>
+
+<body>
+    <center>
+        <style>
+            body {
+                background: url("https://www.drumangle.com/sandbox/wp/21813/wp-content/uploads/2014/01/Login-Screen-Background-Wood-4.jpg");
+                color: antiquewhite;
+                background-attachment: fixed;
+            }
+
+           .container{
+               background:inherit;
+           }
+
+            .container:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+                box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+                filter: blur(10px);
+                background: inherit;
+            }
+
+            h1 {
+                float: left;
+            }
+        </style>
+        <h1>MathGame.i0</h1>
+        
+            <br> <br><br><br> <br><br><br> <br><br>
+            <div class="container">
+                <h3>Player 1 Login for the game </h3>
+                <label>User Name:</label>
+                <input style="width:30%" type="text" id="player1_name_input" class="form-control"
+                    placeholder="Player 1 Name">
+                <br>
+
+                <br>
+                <div>
+                    <h3>Player 2 Login for the game </h3>
+                    <label>User Name:</label>
+                    <input style="width:30%" type="text" id="player2_name_input" class="form-control"
+                        placeholder="Player 2 Name">
+                    <br>
+                </div>
+                <br>
+                <button style="width:30%" class="btn btn-primary" onclick="addUser()">Log In</button> </button>
+            </div>
+    </center>
+
+</body>
+
+</html>
